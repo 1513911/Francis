@@ -1,35 +1,34 @@
-<?php
+
 /**
  * Created by PhpStorm.
  * User: 1513911
- * Date: 24/02/2016
- * Time: 14:43
+ * Date: 02/03/2016
+ * Time: 16:43
  */
-?>
-<!DOCTYPE html>
-    <html>
-    <head>
-    </head>
-        <body>
-             <p>
-                <?php
-                 echo "Hello World";
-                $myage = 28;
-                if ($myage >= 21){
-                    echo "You can buy specs, mugs, and sausage rolls";
-                }
-                elseif($myage >=18){
-                    echo"You can buy specs and mugs";
-                }
-                elseif($myage>=16){
-                    echo"You can buy specs";
-                }
-                else{
-                    echo"You can't buy anything";
-                }
-                ?>
-             </p>
-         </body>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PHP Login Form without Session</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
 
-    </html>
+<body>
+<h1>PHP Login Form with Session</h1>
+<div class="loginBox">
+    <h3>Login Form</h3>
+    <br><br>
+    <form method="post" action="login.php">
+        <label>Username:</label><br>
+        <input type="text" name="username" placeholder="username" /><br><br>
+        <label>Password:</label><br>
+        <input type="password" name="password" placeholder="password" />  <br><br>
+        <input type="submit" name="submit" value = "login"/>
+    </form>
+    <div class="error"><?php //echo $error;?><?php //echo $username; echo $password;?></div>
+
+</div>
+</body>
+</html>
+
 
