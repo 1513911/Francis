@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1513911
- * Date: 02/03/2016
- * Time: 15:51
- */
 
 define('DB_SERVER', 'ap-cdbr-azure-east-c.cloudapp.net');
 define('DB_USERNAME', 'bf10131484f6ac');
