@@ -1,4 +1,7 @@
 
+<?php 
+include("check.php");
+?> 
 
 <html>
 <head>
@@ -8,6 +11,8 @@
 </head>
 
 <body>
-<h1>Hello</h1>
+<h1 class="hello">Hello, <em><?php echo $login_user;?>!</em></h1>
+<br><br><br>
+<a href="logout.php" style="font-size:18px">Logout</a>
 </body>
 </html>
