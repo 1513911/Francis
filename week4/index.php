@@ -1,8 +1,9 @@
 
-if ((isset($_SESSION['username']) != '')) 
+<?php if ((isset($_SESSION['username']) != '')) 
 {
    header('Location: home.php');
 }  
+?>
 
 <!doctype html>
 <html>
