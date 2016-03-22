@@ -29,6 +29,8 @@
         <input type="submit" name="submit" value="Login" /> 
     </form>
     <div class="error"><?php echo $error;?></div>
+    <br>
+   <a href= "register.php">register</a> 
 </div>
 </div>
 </body>
