@@ -54,7 +54,7 @@
 						<div align="right">
 				  		<input type="submit" name="submit" value="Register!" />
 				  		<br>
-				  		<a href="http://www.w3schools.com">Visit W3Schools.com!</a>
+				  		<a href="index.php">login</a>
 						</div>
 					</td>
 				</tr>
