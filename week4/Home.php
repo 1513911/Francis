@@ -19,7 +19,7 @@ include("check.php");
 <br><br><br><br>
 <forms methord="post"action="">
     <fieldset>
-        <legend>Registration Form</legend>
+        <legend>Bug comment</legend>
         <table width="400" border="0" cellpadding="10" cellspacing="10">
         <tr>
         <td colspan="2" align="centre" class="error"><?php echo $msg;?></td>
