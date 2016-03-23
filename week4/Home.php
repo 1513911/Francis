@@ -56,7 +56,7 @@ include("check.php");
         <td hight="23"></td>
         <td>
         <div align="right">
-        <input type="submit" name="submit" value="Register!" />
+        <input type="submit" name="submit" value="Post!" />
         </div>
         </td>
         </tr>
