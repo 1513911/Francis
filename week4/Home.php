@@ -16,7 +16,7 @@ include("check.php");
 <a href="logout.php" style="font-size:18px">Logout</a>
 <br>
 <div id="content"
-     <?php
+    
      //Establish connection with our database
      include("connection.php");
      //select everything from our bugs table where the ID is right
@@ -33,7 +33,7 @@ include("check.php");
      echo "<h2>".$bugTitle."</h2>
      echo "<p>".$bugDesc."</p>";
 
-     ?>
+
     </div>
 </body>
 </html>
