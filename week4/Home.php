@@ -17,12 +17,12 @@ include("check.php");
 <br>
 <a href="logout.php" style="font-size:18px">Logout</a>
 <br><br><br><br>
-<forms methord="post"action="">
+<form method="post"action="">
     <fieldset>
         <legend>Bug comment</legend>
-        <table width="400" border="0" cellpadding="10" cellspacing="10">
+        <table width="400" border="0"cellpadding="10"cellspacing="10">
         <tr>
-        <td colspan="2" align="centre" class="error"><?php echo $msg;?></td>
+        <td colspan="2" align="center" class="error"><?php echo $msg;?></td>
         </tr>
         <tr>
         <td style="font-weight:bold">
@@ -43,13 +43,11 @@ include("check.php");
         </td>
         </tr>
         <tr>
-        <td hight="23" style="font-weight: bold">
+        <td style="font-weight: bold">
         <div align="right">
-        <label for="password">password</label>
-        </div>
-        </td>
-        </td>
-        <input name="password" type="password" class="inspired" size="25" required />
+        <label>Comment:</label></td>
+<td><textarea name="comments" cols="45" rows="5"required>
+</textarea>
         </td>
         </tr>
         </tr>
@@ -64,6 +62,5 @@ include("check.php");
         </fieldset>
         
         </form>
-
 </body>
 </html>
