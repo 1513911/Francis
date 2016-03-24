@@ -26,7 +26,7 @@ include("check.php");
         </tr>
         <tr>
         <td style="font-weight:bold">
-        <div align="right"><label for="name">Name</label></div>
+        <div align="right"><label for="name">Username:</label></div>
         </td>
         <td>
         <input name="name" type="text" class="input" size="25" required/>
@@ -35,11 +35,12 @@ include("check.php");
         <tr>
         <td style="font-weight:bold">
         <div align="right">
-        <label for="email">Email</label>
+        <label for="date">Date:</label>
         </div>
         </td>
         <td>
-        <input name="email" type="email" class="input" size="25" required/>
+         
+        <input name="date" type="date" class="input" size="25" required/>
         </td>
         </tr>
         <tr>
