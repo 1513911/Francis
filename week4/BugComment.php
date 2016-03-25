@@ -66,6 +66,10 @@ include("connection.php")
         <td>
         <div align="right">
         <input type="submit" name="submit" value="Post!" />
+        
+        <br><br>
+        <html><head><meta http-equiv="content-type" content="text/html; charset=us-ascii"></head>
+<body dir="auto"><blockquote type="cite"><div></div></blockquote></body></html>
         </form>
         </body>
 </html>
