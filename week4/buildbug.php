@@ -11,7 +11,7 @@ $description = $_POST["description"];
 $postDate = $_POST["dateposted"];
 $fixedDate = $_POST["datefixed"];
 
-$sql = INSERT INTO bugs(title, desc, postDate, fixedDate) VALUES('$title','$description', '$postDate', '$fixedDate');
+$sql = "INSERT INTO bugs(title, desc, postDate, fixedDate) VALUES('$title','$description', '$postDate', '$fixedDate')";
 mysqli_query($db,$sql);
 
 
