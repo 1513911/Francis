@@ -1,5 +1,5 @@
 <html >
-  <body></body>
+  <body>
 <?php 
 echo "I am here";
 $db = new mysqli(
