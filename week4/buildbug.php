@@ -15,5 +15,5 @@ $fixedDate = $_POST["datefixed"];
 $sql = "INSERT INTO bugs(title, desc, postDate, fixedDate) VALUES('$title','$description', '$postDate', '$fixedDate')";
 mysqli_query($db,$sql);
  
-echo "File have been posted!";
+echo "<h2>File have been posted!</h2>";
 
