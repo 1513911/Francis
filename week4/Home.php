@@ -26,16 +26,28 @@ include("check.php");
         </tr>
         <tr>
         <td style="font-weight:bold">
-        <div align="right"><label for="name">Username:</label></div>
+        <div align="right"><label for="title">Bugtitle:</label></div>
         </td>
         <td>
-        <input name="name" type="text" class="input" size="25" required/>
+        <input name="title" type="text" class="input" size="25" required/>
         </td>
         </tr>
         <tr>
         <td style="font-weight:bold">
         <div align="right">
-        <label for="date">Date:</label>
+        <label for="date">Date posted:</label>
+        </div>
+        </td>
+        <td>
+         
+        <input name="date" type="date" class="input" size="25" required/>
+        </td>
+        </tr>
+        <br><br>
+        <tr>
+        <td style="font-weight:bold">
+        <div align="right">
+        <label for="date">Date fixed:</label>
         </div>
         </td>
         <td>
@@ -46,12 +58,21 @@ include("check.php");
         <tr>
         <td style="font-weight: bold">
         <div align="right">
-        <label>Comment:</label></td>
+        <label>Bug description:</label></td>
 <td><textarea name="comments" cols="45" rows="5"required>
 </textarea>
         </td>
         </tr>
         </tr>
+        <td style="font-weight:bold">
+        <div align="right"><label for="title">Bugtitle:</label></div>
+        </td>
+        <td>
+        <input name="title" type="text" class="input" size="25" required/
+        </td>
+        <tr>
+            <tr>
+            
         <td hight="23"></td>
         <td>
         <div align="right">
