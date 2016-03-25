@@ -1,3 +1,4 @@
+
 <form method = "post" action = "">
 <legend>Bug comment</legend>
         <table width="400" border="0"cellpadding="10"cellspacing="10">
