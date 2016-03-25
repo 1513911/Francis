@@ -14,5 +14,5 @@ $fixedDate = $_POST["datefixed"];
 
 $sql = "INSERT INTO bugs(title, desc, postDate, fixedDate) VALUES('$title','$description', '$postDate', '$fixedDate')";
 mysqli_query($db,$sql);
-
+echo '<a href= "bug.php?id="'.$bugID.'>'.$bugTitle.'</a>";
 
