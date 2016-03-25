@@ -19,6 +19,49 @@ include("check.php");
 <br><br><br><br>
 <form method="post"action="">
     <fieldset>
+        <div><legend>Bug</legend>
+        <table width="400" border="0"cellpadding="10"cellspacing="10">
+        <tr>
+        <td colspan="2" align="center" class="error"><?php echo $msg;?></td>
+        </tr>
+        <tr>
+        <td style="font-weight:bold">
+        <div align="right"><label for="name">Username:</label></div>
+        </td>
+        <td>
+        <input name="name" type="text" class="input" size="25" required/>
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight:bold">
+        <div align="right">
+        <label for="date">Date:</label>
+        </div>
+        </td>
+        <td>
+         
+        <input name="date" type="date" class="input" size="25" required/>
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: bold">
+        <div align="right">
+        <label>Comment:</label></td>
+<td><textarea name="comments" cols="45" rows="5"required>
+</textarea>
+        </td>
+        </tr>
+        </tr>
+        <td hight="23"></td>
+        <td>
+        <div align="right">
+        <input type="submit" name="submit" value="Post!" />
+        </div>
+        </td>
+        </tr>
+        </table> </div>
+        <br><br>
+        <div>
         <legend>Bug comment</legend>
         <table width="400" border="0"cellpadding="10"cellspacing="10">
         <tr>
@@ -60,6 +103,7 @@ include("check.php");
         </td>
         </tr>
         </table>
+        </div>
         </fieldset>
         
         </form>
