@@ -127,6 +127,16 @@ include("check.php");
         </td>
         </tr>
         </tr>
+        <br><br>
+        <br>
+        <td style="font-weight:bold">
+        <div align="right"><label for="title">bug&commentID:</label></div>
+        </td>
+        <td>
+        <input name="title" type="text" class="input" size="25" required/
+        </td>
+        <tr>
+            <tr>
         <td hight="23"></td>
         <td>
         <div align="right">
