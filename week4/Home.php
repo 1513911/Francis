@@ -64,14 +64,15 @@ include("connection.php")
 </textarea>
         </td>
         </tr>
-        </tr>
+        /**
+        <tr>
         <td style="font-weight:bold">
         <div align="right"><label for="title">UserID:</label></div>
         </td>
         <td>
         <input name="title" type="text" class="input" size="25" required/
         </td>
-        <tr>
+        </tr>
             <tr>
                 <br><br>
                <td style="font-weight:bold">
@@ -80,7 +81,7 @@ include("connection.php")
         <td>
         <input name="title" type="text" class="input" size="25" required/
         </td>
-        <tr>
+        <tr>*/
             <tr> 
             
         <td hight="23"></td>
