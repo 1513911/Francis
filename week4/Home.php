@@ -62,6 +62,7 @@ include("check.php");
         </table> </div>
         <br><br>
         <div>
+            <section>
         <legend>Bug comment</legend>
         <table width="400" border="0"cellpadding="10"cellspacing="10">
         <tr>
@@ -79,6 +80,7 @@ include("check.php");
         <td style="font-weight:bold">
         <div align="right">
         <label for="date">Date:</label>
+        </section>
         </div>
         </td>
         <td>
