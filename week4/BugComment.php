@@ -67,9 +67,6 @@ include("connection.php")
         <div align="right">
         <input type="submit" name="submit" value="Post!" />
         
-        <br><br>
-        <div><meta http-equiv="content-type" content="text/html; charset=us-ascii"></head>
-<body dir="auto"><blockquote type="cite"><div></div></blockquote></div>
-        </form>
+                </form>
         </body>
 </html>
