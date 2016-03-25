@@ -74,7 +74,7 @@ include("connection.php")
         <div align="right">
               <input type="submit" name="submit" value="Post!" />
     <br>
-   <a href= "BugComment.php">register</a> 
+   <a href= "BugComment.php">Click here to comment</a> 
 
       
         </div>
