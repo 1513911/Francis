@@ -1,5 +1,23 @@
+<?php 
+include("check.php");
+include("connection.php")
+?> 
 
-<form method = "post" action = "">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+<h1 class="hello">Hello, <em><?php echo $login_user;?>!</em></h1>
+<br><br><br>
+
+<br>
+<a href="logout.php" style="font-size:18px">Logout</a>
+<br><br><br><br>
+<form method="post"action="buildcomment.php">
 <legend>Bug comment</legend>
         <table width="400" border="0"cellpadding="10"cellspacing="10">
         <tr>
