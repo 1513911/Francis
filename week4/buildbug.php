@@ -1,5 +1,5 @@
 <?php 
-include(connection.php)
+include("connection.php")
 $title = $_POST["title"];
 $description = $_POST["description"];
 $postDate = $_POST["postdate"];
