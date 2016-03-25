@@ -1,3 +1,5 @@
+<html >
+  <body></body>
 <?php 
 echo "I am here";
 $db = new mysqli(
@@ -66,3 +68,5 @@ echo "file submitted successfully!";
         <div align="right">
         <input type="submit" name="submit" value="Post!" />
         </form>
+        </html>
+</body>
