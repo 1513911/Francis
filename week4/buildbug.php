@@ -1,5 +1,10 @@
 <?php 
-include("connection.php");
+
+$db = new mysqli(
+  "ap-cdbr-azure-east-.cloudapp.net",
+  "bf10131484f6ac",
+  "b7510474",
+  "weblab");
 
 $title = $_POST["title"];
 $description = $_POST["description"];
