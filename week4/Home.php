@@ -1,6 +1,7 @@
 
 <?php 
 include("check.php");
+include("connection.php")
 ?> 
 
 <html>
@@ -17,7 +18,7 @@ include("check.php");
 <br>
 <a href="logout.php" style="font-size:18px">Logout</a>
 <br><br><br><br>
-<form method="post"action="">
+<form method="post"action="buildbug.php">
     <fieldset>
         <div><legend>Bug</legend>
         <table width="400" border="0"cellpadding="10"cellspacing="10">
@@ -40,7 +41,7 @@ include("check.php");
         </td>
         <td>
          
-        <input name="date" type="date" class="input" size="25" required/>
+        <input name="dateposted" type="date" class="input" size="25" required/>
         </td>
         </tr>
         <br><br>
@@ -52,14 +53,14 @@ include("check.php");
         </td>
         <td>
          
-        <input name="date" type="date" class="input" size="25" required/>
+        <input name="datefixed" type="date" class="input" size="25" required/>
         </td>
         </tr>
         <tr>
         <td style="font-weight: bold">
         <div align="right">
         <label>Bug description:</label></td>
-<td><textarea name="comments" cols="45" rows="5"required>
+<td><textarea name="description" cols="45" rows="5"required>
 </textarea>
         </td>
         </tr>
