@@ -17,7 +17,7 @@ include("connection.php")
 <br>
 <a href="logout.php" style="font-size:18px">Logout</a>
 <br><br><br><br>
-<form method="post"action="buildcomment.php">
+<form method="post"action="buildcoment.php">
 <legend>Bug comment</legend>
         <table width="400" border="0"cellpadding="10"cellspacing="10">
         <tr>
@@ -67,3 +67,5 @@ include("connection.php")
         <div align="right">
         <input type="submit" name="submit" value="Post!" />
         </form>
+        </body>
+</html>
