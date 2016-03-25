@@ -65,13 +65,22 @@ include("check.php");
         </tr>
         </tr>
         <td style="font-weight:bold">
-        <div align="right"><label for="title">Bugtitle:</label></div>
+        <div align="right"><label for="title">UserID:</label></div>
         </td>
         <td>
         <input name="title" type="text" class="input" size="25" required/
         </td>
         <tr>
             <tr>
+                <br><br>
+               <td style="font-weight:bold">
+        <div align="right"><label for="title">fixedBugID:</label></div>
+        </td>
+        <td>
+        <input name="title" type="text" class="input" size="25" required/
+        </td>
+        <tr>
+            <tr> 
             
         <td hight="23"></td>
         <td>
