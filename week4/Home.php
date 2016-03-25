@@ -72,14 +72,7 @@ include("connection.php")
         <td hight="23"></td>
         <td>
         <div align="right">
-            <div class="loginBox">
-    <h3>Login Form</h3>
-    <br><br>
-    <form method="post" action="">
-    <br><br>
-        <input type="submit" name="submit" value="Login" /> 
-    </form>
-    <div class="error"></div>
+              <input type="submit" name="submit" value="Post!" />
     <br>
    <a href= "register.php">register</a> 
 
