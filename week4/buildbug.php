@@ -15,5 +15,5 @@ $sql = "INSERT INTO bugs(title, desc, postDate, fixedDate) VALUES('$title','$des
 mysqli_query($db,$sql);
 
 echo "<br>";
-echo "I have Inserted";
+echo "file submitted successfully!";
 
