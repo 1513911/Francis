@@ -68,8 +68,8 @@ include("connection.php")
         <input type="submit" name="submit" value="Post!" />
         
         <br><br>
-        <html><head><meta http-equiv="content-type" content="text/html; charset=us-ascii"></head>
-<body dir="auto"><blockquote type="cite"><div></div></blockquote></body></html>
+        <div><meta http-equiv="content-type" content="text/html; charset=us-ascii"></head>
+<body dir="auto"><blockquote type="cite"><div></div></blockquote></div>
         </form>
         </body>
 </html>
