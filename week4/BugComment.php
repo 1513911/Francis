@@ -68,7 +68,8 @@ include("connection.php")
         <input type="submit" name="submit" value="Post!" />
         
                 </form>
-                <div>
+                <br><br<br>>
+                <divalign="left">
                     <fieldset>
                        <form>
             <head>
@@ -123,15 +124,11 @@ if ($uploadOk == 0) {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
         echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
     } else {
-        echo "Sorry, there was an error uploading your file.";
+    
     }
 }
 ?>
 
-            </form>
-Status API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help 
-                    </fieldset>
-                    </div>
+           
         </body>
 </html>
