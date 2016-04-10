@@ -6,7 +6,7 @@ include("check.php");
 $sql1 = "SELECT userID FROM users WHERE username = '$user_check'";
 $result = mysqli_query($db,$sql1);
 $row = $result->fetch_array();
-$user = $row['userID']
+$user = $row['userID'];
 
 
 $title = $_POST['title'];
