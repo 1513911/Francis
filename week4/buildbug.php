@@ -7,12 +7,12 @@ $db = new mysqli(
   "b7510474",
   "weblab");
 
-$title = $_POST["title"];
-$description = $_POST["description"];
-$postDate = $_POST["dateposted"];
-$fixedDate = $_POST["datefixed"];
+$title = $_POST['title'];
+$description = $_POST['description'];
+$postDate = $_POST['dateposted'];
+$fixedDate = $_POST['datefixed'];
 
-$sql = "INSERT INTO bugs(title, desc, postDate, fixedDate) VALUES('$title','$description', '$postDate', '$fixedDate')";
+$sql = "INSERT INTO bugs(title, desc, postDate, fixDate) VALUES('$title','$description', '$postDate', '$fixedDate')";
 mysqli_query($db,$sql);
  
 header("location:bugpostresponse.html");
