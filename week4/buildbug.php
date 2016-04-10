@@ -15,5 +15,5 @@ $fixedDate = $_POST["datefixed"];
 $sql = "INSERT INTO bugs(title, desc, postDate, fixedDate) VALUES('$title','$description', '$postDate', '$fixedDate')";
 mysqli_query($db,$sql);
  
-header("location:index.php");
+header("location:bugpostresponse.html");
 
