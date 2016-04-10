@@ -18,7 +18,7 @@ $sql = "INSERT INTO bugs(title, desc, postDate, fixDate, userID) VALUES('$title'
 $db->query($sql);
 //mysqli_query($db,$sql);
 
-echo "<p>{$title} {$description} {$postDate} {$fixedDate} {$user}"
+echo "<p>{$title} {$description} {$postDate} {$fixedDate} {$user}";
  
 //header("location:bugpostresponse.html");
 
