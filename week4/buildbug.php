@@ -15,9 +15,10 @@ $postDate = $_POST['dateposted'];
 $fixedDate = $_POST['datefixed'];
 
 $sql = "INSERT INTO bugs(title, desc, postDate, fixDate, userID) VALUES('$title','$description', '$postDate', '$fixedDate', '$user')";
-mysqli_query($db,$sql);
+$db->query($sql);
+//mysqli_query($db,$sql);
 
-echo "<p>{$title} {$description} {$postDate} {$fixedDate} {$user}";
+echo "<p>{$title} {$description} {$postDate} {$fixedDate} {$user}"
  
 //header("location:bugpostresponse.html");
 
